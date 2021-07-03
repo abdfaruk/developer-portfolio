@@ -1,5 +1,6 @@
 body{
     font-family: 'Yomogi', cursive;
+    margin: 0;
 }
 
 h1{
@@ -10,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -26,4 +28,17 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
 
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pad{
+    padding-right: 150px;
 }
